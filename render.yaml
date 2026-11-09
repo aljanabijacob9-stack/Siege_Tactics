@@ -1,1 +1,7 @@
-
+services:
+  - type: web
+    name: siege-tactics-relay-q7x3
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: node server.js
